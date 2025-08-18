@@ -1,6 +1,6 @@
 def cabangan(a):
     """
-    
+    positif atau negatif
     """
 
     if a > 0:
@@ -39,3 +39,4 @@ while True:
 
     else:
         print("Input tidak valid.")
+
