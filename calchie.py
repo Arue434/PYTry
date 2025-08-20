@@ -1,7 +1,7 @@
-calchie = [{'nama': 'apel', 'harga': 5000}, 
-        {'nama': 'roti', 'harga': 12000}
+calchie = [{'nama': 'pai', 'harga': 5000}, 
+        {'nama': 'anggur', 'harga': 12000}
         , {'nama': 'susu', 'harga': 15000},
-        {'nama': 'telur', 'harga': 20000},]
+        {'nama': 'selada', 'harga': 20000},]
 
 print ("Daftar Barang:", calchie)
 
@@ -38,6 +38,7 @@ while True:
             break
     if not found:
         print("tidak ditemukan dalam daftar barang.")
+
 
 
 
