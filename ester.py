@@ -12,7 +12,7 @@ for i in range(1, 10):
 print(oreList)
 
 # --------------------------------------------------------------------------------------
-print("Daftar dinamis, ketik 'done' untuk selesai")
+print("ketik 'done' untuk selesai atau ketik apa saja untuk memulai")
 lister = []
 
 while True:
@@ -24,4 +24,5 @@ while True:
 
 print("Daftar item anda:")
 for i, item in enumerate(lister, start=1):
+
     print(f"{i}. {item}")
